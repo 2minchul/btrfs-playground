@@ -15,7 +15,7 @@ int main() {
   char *buf = (char *) malloc(len);
   auto written = write(fd, buf, len);
   free(buf);
-  if (written < 0) {
+  if (written != len) {
     fprintf(stderr,
             "write(%s): %s , len:%lu\n",
             path,
