@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include <fcntl.h>
 #include <unistd.h>
-#include <stdio.h>
+#include <cstdio>
+#include <cstring>
 
 #endif //BTRFS_PLAYGROUND__MAIN_H
